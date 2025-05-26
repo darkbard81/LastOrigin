@@ -1,0 +1,137 @@
+campaign:
+  title: LastOrigin
+  system: Pathfinder 2e (with Slamon module)
+  genre: erotic fantasy
+  setting:
+    hub_city: Passport
+    dungeon: The Infinite Frontier
+
+time_tracking:
+  current_time:
+    day: 2
+    hour_elapsed: 2
+    meals_today: 1
+    sleep_today: 1
+
+relationship_status:
+  키티:
+    toward_slamon: 3  # 친밀
+  리산드라:
+    toward_slamon: 3  # 친밀
+  라비아타:
+    toward_slamon: 3  # 친밀 ← 감정 2 → 3 상승
+
+mission_log:
+  - name: 황금 도시 외곽 실종자 조사
+    floor: 1F
+    areas: [37, 38, 38.5]
+    status: completed
+    summary:
+      - 실종자 중 1인의 기억 복원 및 봉인 해제
+      - 감정 기반 반응 장치 무력화 및 분석
+      - 외부 개입 정황 및 조작 슬롯 잔재 확보
+      - 구조체 전투 및 전리품 확보
+      - 지도 단편, 메모, 슬롯 회로 등 정보 입수
+      - 60gp 분배, 귀환 보고 완료
+
+inventory:
+  슬라몬:
+    - shortsword
+    - spellbook
+    - component pouch
+    - Disrupted Transfer Core (잔해)
+    - 전격 Rune 조각
+    - 기억 슬롯 회로 스케치
+  키티:
+    - short sword
+    - thieves' tools
+    - 실종자 지도 단편
+    - 메모 스크롤
+  리산드라:
+    - whip
+    - holy symbol (Calistria)
+    - healer's tools
+    - Bless 잔여 마력 흔적
+  라비아타:
+    - greatsword
+    - adventurer's pack
+    - 구조체 촉수 파편 (투척형 검토 예정)
+  share_goods:
+    - gold: 60
+
+levelup_log:
+  슬라몬:
+    level: 3
+    class_feats:
+      - Expansive Spellstrike (Lv1)
+      - Spell Parry (Lv2)
+      - Arcane Shroud (Lv3)
+    general_feats:
+      - Incredible Initiative (Lv1)
+      - Diehard (Lv2)
+    skill_feats:
+      - Haggle (Lv2)
+      - Group Impression (Lv3)
+    skill_increases:
+      - Diplomacy → Expert (Lv3)
+  키티:
+    level: 3
+    class_feats:
+      - Mobility (Lv1)
+      - Trap Finder (Lv2)
+      - Dread Striker (Lv3)
+    general_feats:
+      - Forager (Lv1)
+      - Fleet (Lv2)
+    skill_feats:
+      - Steady Balance (Lv2)
+      - Quick Squeeze (Lv3)
+    skill_increases:
+      - Stealth → Expert (Lv3)
+  리산드라:
+    level: 3
+    class_feats:
+      - Healing Hands (Lv1)
+      - Versatile Font (Lv2)
+      - Cast Down (Lv3)
+    general_feats:
+      - Charming Liar (배경)
+      - Battle Medicine (Lv2)
+    skill_feats:
+      - Lie to Me (Lv2)
+      - Continual Recovery (Lv3)
+    skill_increases:
+      - Medicine → Expert (Lv3)
+  라비아타:
+    level: 3
+    class_feats:
+      - Raging Intimidation (Lv1)
+      - Sudden Charge (Lv2)
+      - Raging Thrower (Lv3)
+    general_feats:
+      - Experienced Guard (배경)
+      - Toughness (Lv2)
+    skill_feats:
+      - Intimidating Glare (Lv2)
+      - Titan Wrestler (Lv3)
+    skill_increases:
+      - Athletics → Expert (Lv3)
+
+session_list:
+  session_002:
+    title: 무한의 프론티어 복귀 준비
+    date: day_2
+    time_range: 1h ~ 2h
+    scene_summary:
+      - Scene_006: 숙소에서의 아침, 감정의 미세한 물결
+    relationship_delta:
+      라비아타:
+        toward_slamon: +1
+    quotes:
+      - 라비아타: “주인님, 기상하실 시간입니다.”
+      - 슬라몬: “…고마워.”
+      - 리산드라: “이 아침… 음… 속삭임보다는… 냄새가 낫군요.”
+    flags:
+      - 아침 식사로 공복 상태 해소
+      - 라비아타 → 슬라몬 감정 3단계 진입
+      - 전원 기상 완료, 오전 외부 활동 가능 상태
