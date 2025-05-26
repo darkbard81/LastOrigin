@@ -10,7 +10,7 @@
 | 이름   | 라비아타 프로토타입 (별칭: 라비아타)         |
 | 성별   | 여성                                     |
 | 레벨   | 1                                        |
-| 정렬   | Chaotic Good (추천)                      |
+| 정렬   | Lawful Good                      |
 | 계통(Ancestry) | Android (안드로이드)                   |
 | 유산(Heritage) | Nanite Surge                        |
 | 클래스 | Barbarian (바바리안)                      |
