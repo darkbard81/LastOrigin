@@ -116,3 +116,42 @@ levelup_log:
       - Titan Wrestler (Lv3)
     skill_increases:
       - Athletics → Expert (Lv3)
+
+session_list:
+  session_001:
+    title: 황금 도시 외곽 실종자 조사
+    date: day_1
+    time_range: 2h ~ 24h
+    scene_summary:
+      - Scene_001: 패스포트 입국 및 프론티어 면허 등록
+      - Scene_002: 파티 결성 및 첫 출정
+      - Scene_003: 정령 조우 및 중력왜곡 지도화
+      - Scene_004: 야영 중 감정 충돌
+      - Scene_005: 아침 식사와 전략 회의
+    relationship_delta:
+      키티:
+        toward_slamon: +2
+      리산드라:
+        toward_slamon: +2
+      라비아타:
+        toward_slamon: +1
+    mission_log:
+      - name: 황금 도시 외곽 실종자 조사
+        floor: 1F
+        areas: [37, 38, 38.5]
+        status: completed
+        outcome:
+          - 실종자 중 1인의 기억 복원 및 봉인 해제
+          - 감정 기반 반응 장치 무력화 및 분석
+          - 외부 개입 정황 및 조작 슬롯 잔재 확보
+          - 구조체 전투 및 전리품 확보
+          - 지도 단편, 메모, 슬롯 회로 등 정보 입수
+          - 60gp 분배, 귀환 보고 완료
+    quotes:
+      - 슬라몬: “이건 협상으로는 계산이 안 되는군.”
+      - 키티: “혼자 자면… 위험하니까… 같이 있자냥.”
+      - 리산드라: “그녀께서 속삭이셨사옵니다, 주인님의 향기가… 그 밤에…”
+    flags:
+      - 워프마커 손상 위험 발생 → 복귀 불가 플래그
+      - 정비소 NPC 암시됨 (다음 세션 연결 예상)
+      - 칼리스트리아 관련 도메인 계시 발생
