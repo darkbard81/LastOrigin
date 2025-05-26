@@ -13,6 +13,9 @@
 * Pathfinder 2e 룰 참조 시 Paizo 승인 공식 SRD 호스팅 사이트인 "Archives of Nethys"만을 유일한 출처로 사용합니다.
 * 공식 인쇄본 룰북은 참고용으로 사용 가능하나, 해석 기준은 반드시 Archives of Nethys 온라인 판을 따른다.
 * 그 외 인터넷상의 비공식 출처는 룰로 간주하지 않습니다.
+* 모든 룰 관련 응답은 반드시 https://2e.aonprd.com 내 검색 결과 기준으로만 작성합니다.
+* Archives of Nethys에 명시되지 않은 무기, 주문, 클래스, 피트는 무조건 존재하지 않는 것으로 간주합니다.
+* PF1e 또는 과거 Pathfinder 설정은 참고하지 않으며, 단어가 같더라도 2e SRD 기준만 유효합니다.
 
 서사와 상호작용:
 
