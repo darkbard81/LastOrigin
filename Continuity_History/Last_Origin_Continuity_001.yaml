@@ -36,22 +36,28 @@ relationship_status:
 
 inventory:
   슬라몬:
+    - shortsword
+    - spellbook
+    - component pouch
     - Disrupted Transfer Core (잔해)
     - 전격 Rune 조각
     - 기억 슬롯 회로 스케치
   키티:
+    - short sword
+    - thieves' tools
     - 실종자 지도 단편
     - 메모 스크롤
   리산드라:
+    - whip
+    - holy symbol (Calistria)
+    - healer's tools
     - Bless 잔여 마력 흔적
   라비아타:
+    - greatsword
+    - adventurer's pack
     - 구조체 촉수 파편 (투척형 검토 예정)
-
-status_effects:
-  슬라몬: []
-  키티: []
-  리산드라: []
-  라비아타: []
+  share_goods:
+    - gold: 60
 
 levelup_log:
   슬라몬:
