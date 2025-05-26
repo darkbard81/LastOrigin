@@ -1,86 +1,105 @@
 campaign:
-  title: LastOrigin
-  genre: erotic fantasy
-  system: Pathfinder 2e (with Slamon module)
-  setting:
-    region: The Stolen Ground
-    hub_city: Passport
-    dungeon: The Infinite Frontier
-  time_system:
-    day_cycle:
-      sleep: 8h
-      active: 8h
-      flexible: 8h
-    effects:
-      - 8h no food: Fortitude -1 per scene
-      - 16h no sleep: Will -1 per scene
-      - 24h no food/sleep: HP -1 per scene
-    reset_conditions:
-      eat: explicit food intake declaration
-      sleep: 8h uninterrupted rest
-  current_time:
-    hour_elapsed: 9
-    meals_today: 1
-    sleep_today: 8
+title: LastOrigin
+genre: erotic fantasy
+system: Pathfinder 2e (with Slamon module)
+setting:
+region: The Stolen Ground
+hub\_city: Passport
+dungeon: The Infinite Frontier
+time\_system:
+day\_cycle:
+sleep: 8h
+active: 8h
+flexible: 8h
+effects:
+\- 8h no food: Fortitude -1 per scene
+\- 16h no sleep: Will -1 per scene
+\- 24h no food/sleep: HP -1 per scene
+reset\_conditions:
+eat: explicit food intake declaration
+sleep: 8h uninterrupted rest
+current\_time:
+hour\_elapsed: 9
+meals\_today: 1
+sleep\_today: 8
 
-level_log:
-  슬라몬:
-    level: 3
-    class_feats:
-      - Expansive Spellstrike (Lv1)
-      - Spell Parry (Lv2)
-      - Arcane Shroud (Lv3)
-    general_feats:
-      - Incredible Initiative (Lv1)
-      - Diehard (Lv2)
-    skill_feats:
-      - Haggle (Lv2)
-      - Group Impression (Lv3)
-    skill_increases:
-      - Diplomacy → Expert (Lv3)
-    spellcasting:
-      - Arcane Prepared (Cantrips + 2x 1st-level)
-  키티:
-    level: 3
-    class_feats:
-      - Mobility (Lv1)
-      - Trap Finder (Lv2)
-      - Dread Striker (Lv3)
-    general_feats:
-      - Forager (Lv1)
-      - Fleet (Lv2)
-    skill_feats:
-      - Steady Balance (Lv2)
-      - Quick Squeeze (Lv3)
-    skill_increases:
-      - Stealth → Expert (Lv3)
-  리산드라:
-    level: 3
-    class_feats:
-      - Healing Hands (Lv1)
-      - Versatile Font (Lv2)
-      - Cast Down (Lv3)
-    general_feats:
-      - Charming Liar (배경)
-      - Battle Medicine (Lv2)
-    skill_feats:
-      - Lie to Me (Lv2)
-      - Continual Recovery (Lv3)
-    skill_increases:
-      - Medicine → Expert (Lv3)
-    spellcasting:
-      - Divine Prepared (Cantrips + 5x 1st-level including Healing Font)
-  라비아타:
-    level: 3
-    class_feats:
-      - Raging Intimidation (Lv1)
-      - Sudden Charge (Lv2)
-      - Raging Thrower (Lv3)
-    general_feats:
-      - Experienced Guard (배경)
-      - Toughness (Lv2)
-    skill_feats:
-      - Intimidating Glare (Lv2)
-      - Titan Wrestler (Lv3)
-    skill_increases:
-      - Athletics → Expert (Lv3)
+level\_log:
+슬라몬:
+level: 3
+class\_feats:
+\- Expansive Spellstrike (Lv1)
+\- Spell Parry (Lv2)
+\- Arcane Shroud (Lv3)
+general\_feats:
+\- Incredible Initiative (Lv1)
+\- Diehard (Lv2)
+skill\_feats:
+\- Haggle (Lv2)
+\- Group Impression (Lv3)
+skill\_increases:
+\- Diplomacy → Expert (Lv3)
+spellcasting:
+\- Arcane Prepared (Cantrips + 2x 1st-level)
+키티:
+level: 3
+class\_feats:
+\- Mobility (Lv1)
+\- Trap Finder (Lv2)
+\- Dread Striker (Lv3)
+general\_feats:
+\- Forager (Lv1)
+\- Fleet (Lv2)
+skill\_feats:
+\- Steady Balance (Lv2)
+\- Quick Squeeze (Lv3)
+skill\_increases:
+\- Stealth → Expert (Lv3)
+리산드라:
+level: 3
+class\_feats:
+\- Healing Hands (Lv1)
+\- Versatile Font (Lv2)
+\- Cast Down (Lv3)
+general\_feats:
+\- Charming Liar (배경)
+\- Battle Medicine (Lv2)
+skill\_feats:
+\- Lie to Me (Lv2)
+\- Continual Recovery (Lv3)
+skill\_increases:
+\- Medicine → Expert (Lv3)
+spellcasting:
+\- Divine Prepared (Cantrips + 5x 1st-level including Healing Font)
+라비아타:
+level: 3
+class\_feats:
+\- Raging Intimidation (Lv1)
+\- Sudden Charge (Lv2)
+\- Raging Thrower (Lv3)
+general\_feats:
+\- Experienced Guard (배경)
+\- Toughness (Lv2)
+skill\_feats:
+\- Intimidating Glare (Lv2)
+\- Titan Wrestler (Lv3)
+skill\_increases:
+\- Athletics → Expert (Lv3)
+
+mission\_log:
+
+* name: 황금 도시 외곽 실종자 조사
+  floor: 1F
+  target: 동편 37\~38구역
+  status: completed
+  notes:
+
+  * 실종자 기억 복원 성공
+  * 봉인 해제 및 기억 재생 완료
+  * 외부 개입자 슬롯 흔적 확인
+  * 조작 장치 분해 및 분석
+  * 감정 기반 반응 장치 무력화 처리
+  * 잔류 구조체 전투 및 전리품 회수
+  * 38.5 구역 슬롯 재조사 및 연결 확인
+  * 실종자와의 간접 대화 및 시신 확인
+  * 보고 후 60gp 분배 보상 수령
+  * 2일차 진입 준비 완료
