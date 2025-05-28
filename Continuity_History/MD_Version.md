@@ -49,7 +49,6 @@ mission_log:
 ```
 
 ### `inventory`
-### `inventory`
 ```yaml
 inventory:
   characters:
