@@ -12,6 +12,15 @@ time_tracking:
     hour_elapsed: 0
     meals_today: 0
     sleep_today: 0
+
+base_building:
+  location: ''
+  structure:
+    floors: '0'
+    basement: 'false'
+  status: 미보유
+  upgrade_plan: ''
+  ownership: 미정
     
 relationship_status:
 - name: ''
