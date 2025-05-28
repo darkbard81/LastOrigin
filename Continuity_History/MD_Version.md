@@ -156,8 +156,7 @@ party_goal:
 - name: 슬라몬
   personal_goal: 
     title: '동료를 구하자'
-    status: 진행중
-    progress: 4명의 동료중 0명
+    progress: 4명의 동료중 1명
   personal_goal_history:
   - history:
     - date: ''
