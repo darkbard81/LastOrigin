@@ -95,62 +95,62 @@ inventory:
 ### `levelup_log`
 ```yaml
 levelup_log:
-- class_feats:
+- name: 슬라몬
+  level: 3
+  class_feats:
   - Spell Parry
   general_feats:
   - Toughness
-  level: 3
-  name: 슬라몬
-  personal_goal: ''
-  progress: Lv3 성장 완료 (RP 강화형)
   skill_feats:
   - Group Impression
   skill_increases:
   - Diplomacy (→ Expert)
-  status: 완료
-  title: ''
-- class_feats:
+  personal_goal: 
+    title: 
+    status: 완료
+    progress: Lv3 성장 완료 (RP 강화형)
+- name: 키티
+  level: 3
+  class_feats:
   - Dread Striker
   general_feats:
   - Toughness
-  level: 3
-  name: 키티
-  personal_goal: ''
-  progress: Lv3 성장 완료 (기습+생존+낙하 대응형)
   skill_feats:
   - Cat Fall
   skill_increases:
   - Thievery (→ Expert)
-  status: 완료
-  title: ''
-- class_feats:
+  personal_goal: 
+    title: 
+    status: 완료
+    progress: Lv3 성장 완료 (기습+생존+낙하 대응형)
+- name: 리산드라
+  level: 3
+  class_feats:
   - Deadly Simplicity
   general_feats:
   - Intimidating Glare
-  level: 3
-  name: 리산드라
-  personal_goal: ''
-  progress: Lv3 성장 완료 (공식 위협 + 성무기 강화 빌드)
   skill_feats:
   - Battle Cry
   skill_increases:
   - Intimidation (→ Expert)
-  status: 완료
-  title: ''
-- class_feats:
+  personal_goal: 
+    title:  
+    status: 완료
+    progress: Lv3 성장 완료 (공식 위협 + 성무기 강화 빌드)
+- name: 라비아타
+  level: 3
+  class_feats:
   - Aggressive Block
   general_feats:
   - Diehard
-  level: 3
-  name: 라비아타
-  personal_goal: ''
-  progress: Lv3 성장 완료 (Trip 기반 제어 + 생존 강화 빌드)
   skill_feats:
   - Quick Jump
   skill_increases:
   - Athletics (→ Expert)
-  status: 완료
-  title: ''
+  personal_goal:
+    title:  
+    progress: Lv3 성장 완료 (Trip 기반 제어 + 생존 강화 빌드)
+    status: 완료
 ```
 
 ### `session_list`
