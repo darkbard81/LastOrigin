@@ -5,7 +5,7 @@ campaign:
   setting:
     hub_city: Passport
     dungeon: The Infinite Frontier
-    
+
 time_tracking:
   current_time:
     day: 1
@@ -21,38 +21,38 @@ base_building:
   status: 미보유
   upgrade_plan: ''
   ownership: 미정
-    
+
 relationship_status:
-- name: ''
-  toward_slamon: 0
-  
+  - name: ''
+    toward_slamon: 0
+
 mission_log:
-- name: ''
-  floor: ''
-  areas: []
-  status: ''
-  summary: []
-  
+  - name: ''
+    floor: ''
+    areas: []
+    status: ''
+    summary: []
+
 inventory:
   characters:
-  - name: ''
-    items: []
+    - name: ''
+      items: []
   shared:
-  - item: gold
-    amount: 0
-    
+    - item: gold
+      amount: 0
+
 levelup_log:
-- name: ''
-  level: 1
-  class_feats: []
-  general_feats: []
-  skill_feats: []
-  skill_increases: []
-  personal_goal:
+  - name: ''
+    level: 1
+    class_feats: []
+    general_feats: []
+    skill_feats: []
+    skill_increases: []
+    personal_goal: ''
     title: ''
     status: ''
     progress: ''
-    
+
 session_list:
   session_000:
     title: ''
@@ -62,11 +62,11 @@ session_list:
     relationship_delta: {}
     quotes: []
     flags: []
-    
+
 personal_goal_history:
-- name: ''
-  history:
-  - title: ''
-    status: ''
-    date: ''
-    note: ''
+  - name: ''
+    history:
+      - title: ''
+        status: ''
+        date: ''
+        note: ''
