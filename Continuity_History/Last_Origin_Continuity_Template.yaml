@@ -1,0 +1,71 @@
+template:
+  campaign:
+    title: '{{campaign_title}}'
+    system: Pathfinder 2e ({{custom_module}})
+    genre: '{{genre}}'
+    setting:
+      hub_city: '{{hub_city}}'
+      dungeon: '{{dungeon_name}}'
+  party_goal:
+    title: '{{goal_title}}'
+    target_cost_gp: '{{goal_cost}}'
+    current_funds_gp: '{{current_funds}}'
+    status: '{{goal_status}}'
+    notes: '{{goal_notes}}'
+  base_building:
+    location: '{{base_location}}'
+    structure:
+      floors: '{{floors}}'
+      basement: '{{basement_bool}}'
+      rooms:
+        1층: '{{floor_1_rooms}}'
+        2층: '{{floor_2_rooms}}'
+        지하: '{{basement_rooms}}'
+    status: '{{build_status}}'
+    upgrade_plan: '{{upgrade_list}}'
+    ownership: '{{ownership_type}}'
+  inventory:
+    '{{character_name}}':
+    - '{{item1}}'
+    - '{{item2}}'
+    - '...'
+  levelup_log:
+    '{{character_name}}':
+      level: '{{level}}'
+      class_feats:
+      - '{{feat1}}'
+      - '{{feat2}}'
+      general_feats:
+      - '{{feat1}}'
+      - '{{feat2}}'
+      skill_feats:
+      - '{{feat1}}'
+      - '{{feat2}}'
+      skill_increases:
+      - '{{skill_increase1}}'
+      - '{{skill_increase2}}'
+  mission_log:
+  - name: '{{mission_name}}'
+    floor: '{{floor}}'
+    areas:
+    - '{{area1}}'
+    - '{{area2}}'
+    status: '{{status}}'
+    summary:
+    - '{{summary1}}'
+    - '{{summary2}}'
+  session_list:
+    '{{session_id}}':
+      title: '{{session_title}}'
+      date: '{{date}}'
+      time_range: '{{time_range}}'
+      scene_summary:
+      - '{{scene_id}}': '{{scene_description}}'
+      relationship_delta:
+        '{{npc_name}}':
+          toward_{{pc_name}}: '{{delta_value}}'
+      quotes:
+      - '{{speaker_name}}': '{{quote_text}}'
+      flags:
+      - '{{flag1}}'
+      - '{{flag2}}'
