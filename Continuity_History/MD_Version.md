@@ -49,14 +49,48 @@ mission_log:
 ```
 
 ### `inventory`
+### `inventory`
 ```yaml
 inventory:
   characters:
-  - items: []
-    name: ''
+  - name: 슬라몬
+    items:
+    - Rapier
+    - Dagger
+    - Leather Armor
+    - Spellbook
+    - Component Pouch
+    - Adventurer’s Pack
+    - Healing Potion (Minor)
+    - Ledger
+    - 무역품 견본 상자
+  - name: 키티
+    items:
+    - Dagger x3
+    - Leather Armor
+    - Thieves’ Tools
+    - Adventurer’s Pack
+  - name: 리산드라
+    items:
+    - Whip
+    - Wooden Shield
+    - Scale Mail
+    - Holy Symbol
+    - Healer’s Tools
+    - Adventurer’s Pack
+    - Prayer Book
+  - name: 라비아타
+    items:
+    - Greatsword
+    - Hide Armor
+    - Adventurer’s Pack
+    - Healer’s Tools (자가정비)
+    - 내장 방어 플레이트
+    - LED 라인
+    - 전투 시 강화 합금 신체
   shared:
-  - amount: 0
-    item: gold
+  - item: gold piece (gp)
+    amount: 20
 ```
 
 ### `levelup_log`
