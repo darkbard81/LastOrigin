@@ -9,8 +9,7 @@
         "level": 3,
         "gear": {
           "weapon": "Rapier",
-          "armor": "Chain Shirt",
-          "items": ["Spellbook", "Adventurer’s Pack", "Healing Potion ×3"]
+          "armor": "Chain Shirt"
         },
         "spells": {
           "1": {
@@ -31,8 +30,7 @@
         "level": 3,
         "gear": {
           "weapon": "Whip",
-          "armor": "Hide Armor",
-          "items": ["Adventurer’s Pack", "Healing Potion ×2", "Holy Symbol (Calistria)", "Makeup kit", "costume tools"]
+          "armor": "Hide Armor"
         },
         "spells": {
           "1": {
@@ -53,8 +51,7 @@
         "level": 3,
         "gear": {
           "weapon": "Dagger",
-          "armor": "Leather Armor",
-          "items": ["Adventurer’s Pack", "Thieves’ Tools", "Healing Potion ×1", "Grappling hook", "Rope (50ft)", "Small trinkets"]
+          "armor": "Leather Armor"
         },
         "spells": {}
       },
@@ -63,8 +60,7 @@
         "level": 3,
         "gear": {
           "weapon": "Greatsword",
-          "armor": "Hide Armor",
-          "items": ["Adventurer’s Pack", "Repair Kit", "Healing Potion ×1", "Weapon Polish", "Torch", "Rope (50 ft)", "Chalk"]
+          "armor": "Hide Armor"
         },
         "spells": {}
       }
@@ -92,7 +88,7 @@
       "리산드라": 1,
       "라비아타": 1
     }
-  }
+  },
   "scene_log": [
     {
       "timestamp": "Day 1 - 08:00",
@@ -122,7 +118,30 @@
       {"name": "Scroll of Bless", "quantity": 1},
       {"name": "Grave Token", "quantity": 1}
     ],
-    "party_gold": 0
+    "party_gold": 0,
+    "character_items": [
+      {"owner": "슬라몬", "name": "Spellbook", "quantity": 1},
+      {"owner": "슬라몬", "name": "Adventurer’s Pack", "quantity": 1},
+      {"owner": "슬라몬", "name": "Healing Potion", "quantity": 3},
+      {"owner": "리산드라", "name": "Adventurer’s Pack", "quantity": 1},
+      {"owner": "리산드라", "name": "Healing Potion", "quantity": 2},
+      {"owner": "리산드라", "name": "Holy Symbol (Calistria)", "quantity": 1},
+      {"owner": "리산드라", "name": "Makeup kit", "quantity": 1},
+      {"owner": "리산드라", "name": "costume tools", "quantity": 1},
+      {"owner": "키티", "name": "Adventurer’s Pack", "quantity": 1},
+      {"owner": "키티", "name": "Thieves’ Tools", "quantity": 1},
+      {"owner": "키티", "name": "Healing Potion", "quantity": 1},
+      {"owner": "키티", "name": "Grappling hook", "quantity": 1},
+      {"owner": "키티", "name": "Rope (50ft)", "quantity": 1},
+      {"owner": "키티", "name": "Small trinkets", "quantity": 1},
+      {"owner": "라비아타", "name": "Adventurer’s Pack", "quantity": 1},
+      {"owner": "라비아타", "name": "Repair Kit", "quantity": 1},
+      {"owner": "라비아타", "name": "Healing Potion", "quantity": 1},
+      {"owner": "라비아타", "name": "Weapon Polish", "quantity": 1},
+      {"owner": "라비아타", "name": "Torch", "quantity": 1},
+      {"owner": "라비아타", "name": "Rope (50 ft)", "quantity": 1},
+      {"owner": "라비아타", "name": "Chalk", "quantity": 1}
+    ]
   },
   "emotion_log": [
     {
