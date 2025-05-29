@@ -82,7 +82,9 @@
   "world_state": {
     "dungeon_floor": 1,
     "frontier_warp_marker": true,
-    "passport_events": []
+    "passport_events": [],
+    "last_checkpoint": "붕괴된 철제 다리 앞 도달",
+    "last_checkpoint_desc": "조각상을 통한 장치 해제를 마친 후, 파티는 진형을 유지한 채 붕괴된 바닥 위에 걸쳐진 철제 다리 앞에 도달하였다. 다리는 낡고 폭이 좁아 조심히 건너야 하며, 그 너머에는 아치형 석문과 푸른빛이 새어 나오는 통로가 기다리고 있다."
   },
   "relationships": {
     "슬라몬": {
