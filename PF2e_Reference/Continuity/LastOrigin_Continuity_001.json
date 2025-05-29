@@ -84,7 +84,13 @@
     "frontier_warp_marker": true,
     "passport_events": []
   },
-  "relationships": {},
+  "relationships": {
+    "슬라몬": {
+      "키티": 1,
+      "리산드라": 1,
+      "라비아타": 1
+    }
+  }
   "scene_log": [
     {
       "timestamp": "Day 1 - 08:00",
@@ -116,7 +122,41 @@
     ],
     "party_gold": 0
   },
-  "emotion_log": [],
+  "emotion_log": [
+    {
+      "log_id": 1,
+      "timestamp": "Day 1 - 08:00",
+      "scene_id": 1,
+      "from": "슬라몬",
+      "to": "키티",
+      "change": "+1",
+      "new_stage": 1,
+      "trigger": "설득을 통해 파티에 합류시킴",
+      "note": "키티가 슬라몬에게 최소한의 신뢰를 가지기 시작함"
+    },
+    {
+      "log_id": 2,
+      "timestamp": "Day 1 - 08:00",
+      "scene_id": 1,
+      "from": "슬라몬",
+      "to": "리산드라",
+      "change": "+1",
+      "new_stage": 1,
+      "trigger": "루미에르의 추천으로 파티에 합류",
+      "note": "리산드라가 슬라몬을 관찰 대상으로 인식함"
+    },
+    {
+      "log_id": 3,
+      "timestamp": "Day 1 - 08:00",
+      "scene_id": 1,
+      "from": "슬라몬",
+      "to": "라비아타",
+      "change": "+1",
+      "new_stage": 1,
+      "trigger": "혈액을 통해 각성하며 주인으로 인식",
+      "note": "라비아타가 본능적으로 보호대상으로 인식함"
+    }
+  ],
   "levelup_log": [
     {
       "character": "슬라몬",
