@@ -1,153 +1,169 @@
+base_building:
+  location: ''
+  ownership: 미정
+  status: 미보유
+  structure:
+    basement: 'false'
+    floors: '0'
+  upgrade_plan: ''
 campaign:
-  title: LastOrigin
-  system: Pathfinder 2e (with Slamon module)
   genre: erotic fantasy
   setting:
-    hub_city: Passport
     dungeon: The Infinite Frontier
-
+    hub_city: Passport
+  system: Pathfinder 2e (with Slamon module)
+  title: LastOrigin
+inventory:
+  characters:
+  - items:
+    - Rapier
+    - Dagger
+    - Leather Armor
+    - Spellbook
+    - Component Pouch
+    - Adventurer’s Pack
+    - Healing Potion (Minor)
+    - Ledger
+    - 무역품 견본 상자
+    name: 슬라몬
+  - items:
+    - Dagger x3
+    - Leather Armor
+    - Thieves’ Tools
+    - Adventurer’s Pack
+    name: 키티
+  - items:
+    - Whip
+    - Wooden Shield
+    - Scale Mail
+    - Holy Symbol
+    - Healer’s Tools
+    - Adventurer’s Pack
+    - Prayer Book
+    name: 리산드라
+  - items:
+    - Greatsword
+    - Hide Armor
+    - Adventurer’s Pack
+    - Healer’s Tools (자가정비)
+    - 내장 방어 플레이트
+    - LED 라인
+    - 전투 시 강화 합금 신체
+    name: 라비아타
+  shared:
+  - amount: 40
+    item: gold piece (gp)
+levelup_log:
+- class_feats:
+  - Spell Parry
+  general_feats:
+  - Toughness
+  level: 3
+  name: 슬라몬
+  skill_feats:
+  - Group Impression
+  skill_increases:
+  - Diplomacy (→ Expert)
+- class_feats:
+  - Dread Striker
+  general_feats:
+  - Toughness
+  level: 3
+  name: 키티
+  skill_feats:
+  - Cat Fall
+  skill_increases:
+  - Thievery (→ Expert)
+- class_feats:
+  - Deadly Simplicity
+  general_feats:
+  - Intimidating Glare
+  level: 3
+  name: 리산드라
+  skill_feats:
+  - Battle Cry
+  skill_increases:
+  - Intimidation (→ Expert)
+- class_feats:
+  - Aggressive Block
+  general_feats:
+  - Diehard
+  level: 3
+  name: 라비아타
+  skill_feats:
+  - Quick Jump
+  skill_increases:
+  - Athletics (→ Expert)
+mission_log:
+- areas:
+  - 갈잎 농장
+  floor: ''
+  name: 빛나는 허수아비의 밤
+  status: 완료
+  summary:
+  - 갈잎 농장에서 이상한 허수아비 현상 조사
+  - 밤중 도적들과 전투 발생, 슬라몬 HP -1
+  - 라비아타 프로토타입 자동 활성화 및 전투 참여
+  - 도적1 사망, 도적2 도주, 도적3 생포
+  - 도적3 심문 → 서쪽 성벽 집결지 단서 확보
+  - 루미에르에게 보고 후 보상 20gp 수령
+party_goal:
+- name: 슬라몬
+  personal_goal:
+    progress: 3명의 동료 구함 (키티, 리산드라, 라비아타)
+    title: 동료를 구하자
+  personal_goal_history:
+  - history:
+    - date: Day 1
+      note: 키티와 리산드라와 파티 결성 및 중재 진행
+      status: 완료
+      title: 파티 결성 시작
+    - date: Day 1-2
+      note: 라비아타와 전투 중 자동 활성화 및 파티 정식 합류
+      status: 완료
+      title: 보호자 회수 완료
+relationship_status:
+- name: 키티
+  toward_slamon: 1
+- name: 라비아타
+  toward_slamon: 1
+- name: 리산드라
+  toward_slamon: 1
+session_list:
+  session_000:
+    date: Day 1
+    flags: []
+    quotes: []
+    relationship_delta:
+      리산드라: 1
+      키티: 1
+    scene_summary:
+    - 솔로 슬라몬, 길드 등록 문제로 곤란함
+    - 키티와 파티 결성
+    - 리산드라 신전 갈등 파악 및 협상 성공
+    time_range: 09:00 ~ 12:30
+    title: 파티 결성과 신전 중재
+  session_001:
+    date: Day 1-2
+    flags: []
+    quotes: []
+    relationship_delta:
+      라비아타: 1
+      리산드라: 0
+      키티: 0
+    scene_summary:
+    - 루미에르에게 중재 보상 수령
+    - 갈잎 농장 조사 임무 수락 및 출발
+    - 밤중 도적 3인 조우 및 전투 개시
+    - 슬라몬 피해 → 라비아타 자동 활성화
+    - 도적3 심문 → 서쪽 성벽 집결지 단서 확보
+    - 임무 완료 후 루미에르에게 보고 및 보상 수령
+    - 숙소에서 수면 후 회복
+    time_range: 13:00(Day1) ~ 04:30(Day2)
+    title: 허수아비의 밤과 깨어난 검
 time_tracking:
   current_time:
     day: 2
-    hour_elapsed: 1
+    hour_elapsed: 4.5
     meals_today: 0
-    sleep_today: 0
-
-mission_log:
-  - name: 황금 도시 외곽 실종자 조사
-    floor: 1F
-    areas: [37, 38, 38.5]
-    status: completed
-    summary:
-      - 실종자 중 1인의 기억 복원 및 봉인 해제
-      - 감정 기반 반응 장치 무력화 및 분석
-      - 외부 개입 정황 및 조작 슬롯 잔재 확보
-      - 구조체 전투 및 전리품 확보
-      - 지도 단편, 메모, 슬롯 회로 등 정보 입수
-      - 60gp 분배, 귀환 보고 완료
-
-relationship_status:
-  키티:
-    toward_slamon: 3  # 친밀
-  리산드라:
-    toward_slamon: 3  # 친밀
-  라비아타:
-    toward_slamon: 2  # 호기심
-
-inventory:
-  슬라몬:
-    - shortsword
-    - spellbook
-    - component pouch
-    - Disrupted Transfer Core (잔해)
-    - 전격 Rune 조각
-    - 기억 슬롯 회로 스케치
-  키티:
-    - short sword
-    - thieves' tools
-    - 실종자 지도 단편
-    - 메모 스크롤
-  리산드라:
-    - whip
-    - holy symbol (Calistria)
-    - healer's tools
-    - Bless 잔여 마력 흔적
-  라비아타:
-    - greatsword
-    - adventurer's pack
-    - 구조체 촉수 파편 (투척형 검토 예정)
-  share_goods:
-    - gold: 60
-
-levelup_log:
-  슬라몬:
-    level: 3
-    class_feats:
-      - Expansive Spellstrike (Lv1)
-      - Spell Parry (Lv2)
-      - Arcane Shroud (Lv3)
-    general_feats:
-      - Incredible Initiative (Lv1)
-      - Diehard (Lv2)
-    skill_feats:
-      - Haggle (Lv2)
-      - Group Impression (Lv3)
-    skill_increases:
-      - Diplomacy → Expert (Lv3)
-  키티:
-    level: 3
-    class_feats:
-      - Mobility (Lv1)
-      - Trap Finder (Lv2)
-      - Dread Striker (Lv3)
-    general_feats:
-      - Forager (Lv1)
-      - Fleet (Lv2)
-    skill_feats:
-      - Steady Balance (Lv2)
-      - Quick Squeeze (Lv3)
-    skill_increases:
-      - Stealth → Expert (Lv3)
-  리산드라:
-    level: 3
-    class_feats:
-      - Healing Hands (Lv1)
-      - Versatile Font (Lv2)
-      - Cast Down (Lv3)
-    general_feats:
-      - Charming Liar (배경)
-      - Battle Medicine (Lv2)
-    skill_feats:
-      - Lie to Me (Lv2)
-      - Continual Recovery (Lv3)
-    skill_increases:
-      - Medicine → Expert (Lv3)
-  라비아타:
-    level: 3
-    class_feats:
-      - Raging Intimidation (Lv1)
-      - Sudden Charge (Lv2)
-      - Raging Thrower (Lv3)
-    general_feats:
-      - Experienced Guard (배경)
-      - Toughness (Lv2)
-    skill_feats:
-      - Intimidating Glare (Lv2)
-      - Titan Wrestler (Lv3)
-    skill_increases:
-      - Athletics → Expert (Lv3)
-
-session_list:
-  session_001:
-    title: 황금 도시 외곽 실종자 조사
-    date: day_1
-    time_range: 2h ~ 24h
-    scene_summary:
-      - Scene_001: 패스포트 입국 및 프론티어 면허 등록
-      - Scene_002: 파티 결성 및 첫 출정
-      - Scene_003: 미션 성공 및 귀환
-    relationship_delta:
-      키티:
-        toward_slamon: +2
-      리산드라:
-        toward_slamon: +2
-      라비아타:
-        toward_slamon: +1
-    mission_log:
-      - name: 황금 도시 외곽 실종자 조사
-        floor: 1F
-        areas: [37, 38, 38.5]
-        status: completed
-        outcome:
-          - 실종자 중 1인의 기억 복원 및 봉인 해제
-          - 감정 기반 반응 장치 무력화 및 분석
-          - 외부 개입 정황 및 조작 슬롯 잔재 확보
-          - 구조체 전투 및 전리품 확보
-          - 지도 단편, 메모, 슬롯 회로 등 정보 입수
-          - 60gp 분배, 귀환 보고 완료
-    quotes:
-      - 슬라몬: “이건 협상으로는 계산이 안 되는군.”
-      - 키티: “혼자 자면… 위험하니까… 같이 있자냥.”
-      - 리산드라: “그녀께서 속삭이셨사옵니다, 주인님의 향기가… 그 밤에…”
-    flags:
-      - 칼리스트리아 관련 도메인 계시 발생
+    sleep_today: 1
