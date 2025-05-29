@@ -1,0 +1,149 @@
+campaign:
+  genre: erotic fantasy
+  setting:
+    dungeon: The Infinite Frontier
+    hub_city: Passport
+  system: Pathfinder 2e (with Slamon module)
+  title: LastOrigin
+
+time_tracking:
+  current_time:
+    day: 1
+    hour_elapsed: 4.5
+    meals_today: 0
+    sleep_today: 0
+
+base_building:
+  location: ''
+  ownership: 미정
+  status: 미보유
+  structure:
+    basement: 'false'
+    floors: '0'
+  upgrade_plan: ''
+
+relationship_status:
+- name: 키티
+  toward_slamon: 1
+- name: 리산드라
+  toward_slamon: 1
+
+mission_log:
+- areas: []
+  floor: ''
+  name: ''
+  status: '진행 중: 파티 결성 및 중재'
+  summary:
+  - 솔로 모험가 슬라몬, 파티원 키티 및 리산드라와 결성 완료
+  - 리산드라의 신전 내 갈등 상황 파악 및 조건 협상 성공
+
+inventory:
+  characters:
+  - name: 슬라몬
+    items:
+    - Rapier
+    - Dagger
+    - Leather Armor
+    - Spellbook
+    - Component Pouch
+    - Adventurer’s Pack
+    - Healing Potion (Minor)
+    - Ledger
+    - 무역품 견본 상자
+  - name: 키티
+    items:
+    - Dagger x3
+    - Leather Armor
+    - Thieves’ Tools
+    - Adventurer’s Pack
+  - name: 리산드라
+    items:
+    - Whip
+    - Wooden Shield
+    - Scale Mail
+    - Holy Symbol
+    - Healer’s Tools
+    - Adventurer’s Pack
+    - Prayer Book
+  - name: 라비아타
+    items:
+    - Greatsword
+    - Hide Armor
+    - Adventurer’s Pack
+    - Healer’s Tools (자가정비)
+    - 내장 방어 플레이트
+    - LED 라인
+    - 전투 시 강화 합금 신체
+  shared:
+  - item: gold piece (gp)
+    amount: 20
+
+levelup_log:
+- name: 슬라몬
+  level: 3
+  class_feats:
+  - Spell Parry
+  general_feats:
+  - Toughness
+  skill_feats:
+  - Group Impression
+  skill_increases:
+  - Diplomacy (→ Expert)
+- name: 키티
+  level: 3
+  class_feats:
+  - Dread Striker
+  general_feats:
+  - Toughness
+  skill_feats:
+  - Cat Fall
+  skill_increases:
+  - Thievery (→ Expert)
+- name: 리산드라
+  level: 3
+  class_feats:
+  - Deadly Simplicity
+  general_feats:
+  - Intimidating Glare
+  skill_feats:
+  - Battle Cry
+  skill_increases:
+  - Intimidation (→ Expert)
+- name: 라비아타
+  level: 3
+  class_feats:
+  - Aggressive Block
+  general_feats:
+  - Diehard
+  skill_feats:
+  - Quick Jump
+  skill_increases:
+  - Athletics (→ Expert)
+
+session_list:
+  session_000:
+    date: 'Day 1'
+    flags: []
+    quotes: []
+    relationship_delta:
+      키티: +1
+      리산드라: +1
+    scene_summary:
+      - 솔로 슬라몬, 길드 등록 문제로 곤란함
+      - 키티와 파티 결성
+      - 리산드라 신전 갈등 파악 및 협상 성공
+    time_range: '09:00 ~ 12:30'
+    title: '파티 결성과 신전 중재'
+
+party_goal:
+- name: 슬라몬
+  personal_goal:
+    title: '동료를 구하자'
+    progress: 2명의 동료 구함 (키티, 리산드라)
+  personal_goal_history:
+  - history:
+    - date: 'Day 1'
+      note: '키티와 리산드라와 파티 결성 및 중재 진행'
+      status: 진행 중
+      title: '파티 결성 시작'
+    name: '슬라몬'
