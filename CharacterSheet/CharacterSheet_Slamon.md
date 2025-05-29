@@ -101,7 +101,7 @@
 
 ### 1레벨 주문 (Prepared: 2회)
 - Shocking Grasp
-- True Strike
+- Sure Strike
 
 ---
 
