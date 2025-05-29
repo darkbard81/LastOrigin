@@ -1,0 +1,182 @@
+{
+  "campaign": "LastOrigin - 도둑맞은 땅의 프론티어 탐사기록",
+  "location": "무한의 프론티어 1층",
+  "party": {
+    "leader": "슬라몬",
+    "members": [
+      {
+        "name": "슬라몬",
+        "level": 3,
+        "gear": {
+          "weapon": "Rapier",
+          "armor": "Chain Shirt",
+          "items": ["Spellbook", "Adventurer’s Pack", "Healing Potion ×3"]
+        },
+        "spells": {
+          "1": {
+            "slots_total": 2,
+            "slots_used": 0,
+            "prepared": ["Shield", "Shocking Grasp"]
+          },
+          "2": {
+            "slots_total": 1,
+            "slots_used": 1,
+            "prepared": ["Mirror Image"]
+          },
+          "focus_points": 0
+        }
+      },
+      {
+        "name": "리산드라",
+        "level": 3,
+        "gear": {
+          "weapon": "Whip",
+          "armor": "Hide Armor",
+          "items": ["Adventurer’s Pack", "Healing Potion ×2", "Holy Symbol (Calistria)", "Makeup kit", "costume tools"]
+        },
+        "spells": {
+          "1": {
+            "slots_total": 3,
+            "slots_used": 0,
+            "prepared": ["Harm", "Bless", "Command"]
+          },
+          "2": {
+            "slots_total": 1,
+            "slots_used": 0,
+            "prepared": ["Spiritual Weapon"]
+          },
+          "focus_points": 1
+        }
+      },
+      {
+        "name": "키티",
+        "level": 3,
+        "gear": {
+          "weapon": "Dagger",
+          "armor": "Leather Armor",
+          "items": ["Adventurer’s Pack", "Thieves’ Tools", "Healing Potion ×1", "Grappling hook", "Rope (50ft)", "Small trinkets"]
+        },
+        "spells": {}
+      },
+      {
+        "name": "라비아타",
+        "level": 3,
+        "gear": {
+          "weapon": "Greatsword",
+          "armor": "Hide Armor",
+          "items": ["Adventurer’s Pack", "Repair Kit", "Healing Potion ×1", "Weapon Polish", "Torch", "Rope (50 ft)", "Chalk"]
+        },
+        "spells": {}
+      }
+    ]
+  },
+  "time": {
+    "current_day": 1,
+    "clock": "10:30",
+    "activity_hours": 4,
+    "utility_hours": 1,
+    "sleep_hours": 0,
+    "last_meal": "08:30",
+    "last_sleep": ""
+  },
+  "world_state": {
+    "dungeon_floor": 1,
+    "frontier_warp_marker": true,
+    "passport_events": []
+  },
+  "relationships": {},
+  "scene_log": [
+    {
+      "timestamp": "Day 1 - 08:00",
+      "location": "패스포트 - 길드 오브 프론티어즈",
+      "description": "4인 파티 정시 등록 및 워프마커 발급",
+      "time_spent": "1시간"
+    },
+    {
+      "timestamp": "Day 1 - 09:00",
+      "location": "푸크드르의 향기",
+      "description": "아침 식사 및 보급 구매",
+      "time_spent": "1.5시간"
+    },
+    {
+      "timestamp": "Day 1 - 10:30",
+      "location": "무한의 프론티어 1층",
+      "description": "던전 진입, 조우 및 전투 발생",
+      "time_spent": "2시간"
+    }
+  ],
+  "inventory": {
+    "shared_items": [
+      {"name": "Ration (1-day)", "quantity": 4},
+      {"name": "Healing Potion (Lesser)", "quantity": 2},
+      {"name": "Camping Kit (2-person)", "quantity": 1},
+      {"name": "Purified Water Pack (3 uses)", "quantity": 1},
+      {"name": "Scroll of Bless", "quantity": 1},
+      {"name": "Grave Token", "quantity": 1}
+    ],
+    "party_gold": 0
+  },
+  "emotion_log": [],
+  "levelup_log": [
+    {
+      "character": "슬라몬",
+      "level": 3,
+      "status": "confirmed",
+      "timestamp": "Day 1 - 08:00",
+      "changes": {
+        "hp_increase": 30,
+        "trained_skills_added": ["Diplomacy", "Arcana"],
+        "class_feat_gained": "Spell Parry",
+        "general_feat_gained": "Incredible Initiative",
+        "skill_increases": [],
+        "spells_added": ["Mirror Image"],
+        "notes": ""
+      }
+    },
+    {
+      "character": "키티",
+      "level": 3,
+      "status": "confirmed",
+      "timestamp": "Day 1 - 08:00",
+      "changes": {
+        "hp_increase": 24,
+        "trained_skills_added": ["Stealth", "Thievery"],
+        "class_feat_gained": "Dread Striker",
+        "general_feat_gained": "Cat Fall",
+        "skill_increases": [],
+        "spells_added": [],
+        "notes": ""
+      }
+    },
+    {
+      "character": "리산드라",
+      "level": 3,
+      "status": "confirmed",
+      "timestamp": "Day 1 - 08:00",
+      "changes": {
+        "hp_increase": 24,
+        "trained_skills_added": [],
+        "class_feat_gained": "Communal Healing",
+        "general_feat_gained": "Shield Block",
+        "skill_increases": [],
+        "spells_added": ["Spiritual Weapon"],
+        "notes": "성표를 새기된 헤어핀에 장착함"
+      }
+    },
+    {
+      "character": "라비아타",
+      "level": 3,
+      "status": "confirmed",
+      "timestamp": "Day 1 - 08:00",
+      "changes": {
+        "hp_increase": 30,
+        "trained_skills_added": ["Nature", "Intimidation"],
+        "class_feat_gained": "No Escape",
+        "general_feat_gained": "Diehard",
+        "skill_increases": [],
+        "spells_added": [],
+        "notes": ""
+      }
+    }
+  ]
+}
