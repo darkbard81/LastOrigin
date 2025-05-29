@@ -116,6 +116,6 @@ Neutral Good
 
 * Common
 * Draconic
-* Undercommon
+* Goblin
 * Infernal
 * Sylvan
