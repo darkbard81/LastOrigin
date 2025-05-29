@@ -118,7 +118,7 @@
       {"name": "Scroll of Bless", "quantity": 1},
       {"name": "Grave Token", "quantity": 1}
     ],
-    "party_gold": 0,
+    "party_gold": 50,
     "character_items": [
       {"owner": "슬라몬", "name": "Spellbook", "quantity": 1},
       {"owner": "슬라몬", "name": "Adventurer’s Pack", "quantity": 1},
