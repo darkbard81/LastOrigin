@@ -34,7 +34,8 @@
 |--------|------|------|
 | weapon | string | 주요 무기 이름 |
 | armor | string | 착용 방어구 이름 |
-| items | array[string] | 기타 장비 또는 도구 목록 |
+
+※ 기타 장비는 `inventory.character_items`로 이동
 
 ### spells (object)
 
@@ -60,8 +61,7 @@
       "level": number,
       "gear": {
         "weapon": "string",
-        "armor": "string",
-        "items": ["string"]
+        "armor": "string"
       },
       "spells": {
         "1": { "slots_total": number, "slots_used": number, "prepared": ["string"] },
@@ -172,12 +172,20 @@
 | └ name | string | 아이템 이름 |
 | └ quantity | number | 수량 |
 | party_gold | number | 현재 파티가 보유한 금화량 |
+| character_items | array[object] | 캐릭터별 개별 소지품 목록 |
+| └ owner | string | 아이템 소지 캐릭터 이름 |
+| └ name | string | 아이템 이름 |
+| └ quantity | number | 수량 |
+
 ```json
 "inventory": {
   "shared_items": [
     { "name": "string", "quantity": number }
   ],
-  "party_gold": number
+  "party_gold": number,
+  "character_items": [
+    { "owner": "string", "name": "string", "quantity": number }
+  ]
 }
 ```
 
